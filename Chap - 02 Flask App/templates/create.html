@@ -1,0 +1,32 @@
+<html>
+    <p1>
+        Dealing with Pets Database!
+        <hr/>
+    </p1>
+    <body>
+        Creating New Pet
+
+        <form action = "/create" method="post">
+            <hr/>
+            <p>
+                Animal Name: <input name = "name"/> <!-- Pet Name input -->
+            </p>
+            <p>
+                Type: <input name = "type"/> <!-- Pet Type input -->
+            </p>
+            <p>
+                Age: <input name = "age"/> <!-- Pet Age input -->
+            </p>
+            <p>
+                Owner: <input name = "owner"/> <!-- Pet Owner input -->
+            </p>
+
+
+            <hr/>
+            <button type="submit">Create</button> <!--Submit button-->
+            <a href="/list">Cancel</a> <!--Cancel Button, redirects to "list" page-->
+            <hr/>
+        </form>
+
+    </body>
+</html>
